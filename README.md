@@ -6,8 +6,8 @@ Is also working on android.
 
 ##**How to start**
 
- 1. Add the Context.java and HttpHelper class to your project.
- 2. Import the GSON library. You can do this manually by adding the jar https://code.google.com/p/google-gson/downloads/detail?name=google-gson-2.2.4-release.zip& or by maven:
+ 1)Add the Context.java and HttpHelper class to your project.
+ 2)Import the GSON library. You can do this manually by adding the jar https://code.google.com/p/google-gson/downloads/detail?name=google-gson-2.2.4-release.zip& or by maven:
 ```xml
 <dependency>
     	<groupId>com.google.code.gson</groupId>
@@ -18,8 +18,7 @@ Is also working on android.
  Or gradle
 
    compile 'com.google.code.gson:gson:1.7.2'
-
- 3. If you're using android don't forget to add the internet permission.
+ 3)If you're using android don't forget to add the internet permission.
   `<uses-permission android:name="android.permission.INTERNET" /> `
 
 That's all!
