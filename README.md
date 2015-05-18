@@ -1,5 +1,3 @@
-# JSON-Rest-API-Client-Java-Android
-
 
 #JSON Rest API Client
 
